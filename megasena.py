@@ -55,40 +55,9 @@ print('Valor estimado para o próximo prêmio R$ {:.2f}'.format(ConteudoJson["va
 
 l1 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
 l2 = ['01', '04', '09', '11', '22', '27']
-l3 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l4 = ['06', '13', '18', '19', '20', '21']
-l5 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l6 = ['06', '15', '18', '24', '27', '37']
-l7 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l8 = ['25', '32', '34', '43', '51', '56']
-l9 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l10 = ['12', '19', '24', '36', '37', '38']
-l11 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l12 = ['18', '20', '23', '25', '32', '51']
-l13 = [Numero1, Numero2, Numero3, Numero4, Numero5, Numero6]
-l14 = ['08', '12', '24', '36', '38', '58']
-
     
 print("Dezenas que acertei no jogo 1:", set(l1) & set(l2))
-print("Dezenas que acertei no jogo 2:", set(l3) & set(l4))
-print("Dezenas que acertei no jogo 3:", set(l5) & set(l6))
-print("Dezenas que acertei no jogo 4:", set(l7) & set(l8))
-print("Dezenas que acertei no jogo 5:", set(l9) & set(l10))
-print("Dezenas que acertei no jogo 6:", set(l11) & set(l12))
-print("Dezenas que acertei no jogo 7:", set(l13) & set(l14))
 
 Qtd1 = len(set(l1) & set(l2))
-Qtd2 = len(set(l3) & set(l4))
-Qtd3 = len(set(l5) & set(l6))
-Qtd4 = len(set(l7) & set(l8))
-Qtd5 = len(set(l9) & set(l10))
-Qtd6 = len(set(l11) & set(l12))
-Qtd7 = len(set(l13) & set(l14))
 
 print(('Quantidade de dezenas acertadas no jogo 1:'), Qtd1, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 2:'), Qtd2, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 3:'), Qtd3, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 4:'), Qtd4, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 5:'), Qtd5, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 6:'), Qtd6, ('Dezena(s)'))
-print(('Quantidade de dezenas acertadas no jogo 7:'), Qtd7, ('Dezena(s)'))
